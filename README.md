@@ -29,7 +29,7 @@ RM_NODE_MODULES=true
 
 ```sh
 STATIC_SERVER=<AWS_STATIC_BUCKET_NAME>.s3.amazonaws.com
-STATIC_PATH=/<AWS_STATIC_PREFIX>/<YYYY-MM-DD>/<git-commit-sha1>
+STATIC_PATH=/<AWS_STATIC_PREFIX>/<HEROKU_APP_NAME>/<YYYY-MM-DD>/<git-commit-sha1>
 ```
 
 These variables can be overriden with config vars as expected
