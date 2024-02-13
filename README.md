@@ -29,7 +29,7 @@ RM_NODE_MODULES=true
 
 ```sh
 STATIC_SERVER=<AWS_STATIC_BUCKET_NAME>.s3.amazonaws.com
-STATIC_PATH=/<AWS_STATIC_PREFIX>/<HEROKU_APP_NAME>/<HEROKU_RELEASE_VERSION>
+STATIC_PATH=/<AWS_STATIC_PREFIX>/<HEROKU_APP_NAME>/<HEROKU_RELEASE_VERSION>/<guid>
 ```
 
 These variables can be overriden with config vars as expected
